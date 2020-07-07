@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="Ramel Ni&ntilde;o O. Empleo" />
+		<link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+		<link rel="icon" type="image/icon" href="assets/img/logo.png" />
+		<title>loading...</title>
+		<style>
+			*{-webkit-font-smoothing:antialiased;-webkit-backface-visibility:hidden;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;margin:0;padding:0;-webkit-user-drag:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-overflow-scrolling:touch;-webkit-touch-callout:none}*::-webkit-scrollbar{-webkit-transition:.3s ease;transition:.3s ease;width:0 !important;background:transparent !important}*::-moz-scrollbar{-moz-transition:.3s ease;transition:.3s ease;width:0 !important;background:transparent !important}*::-o-scrollbar{-o-transition:.3s ease;transition:.3s ease;width:0 !important;background:transparent !important}*::-ms-scrollbar{-ms-transition:.3s ease;transition:.3s ease;width:0 !important;background:transparent !important}html{-webkit-overflow-style:none;-webkit-overflow-style:-webkit-autohiding-scrollbar !important;-webkit-transition:.3s ease;-moz-overflow-style:none;-moz-overflow-style:-moz-autohiding-scrollbar;-moz-transition:.3s ease;-ms-overflow-style:none;-ms-overflow-style:-ms-autohiding-scrollbar;-ms-transition:.3s ease;transition:.3s ease;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box !important}
+			/* loader */.loader{position: relative;height: 100vh;width: 100vw;display: flex;align-items: center;justify-content: center;flex-direction: column;z-index: 10000;background-color: #F5F5F5;overflow: hidden;}.loaderCon{height: 50px;transform-origin: bottom center;animation: rotateCircles 3s linear infinite;}.circle{display: inline-block;background-color: #ff9800;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);height: 40px;width: 40px;border-radius: 50%;transform: scale(0);animation: grow 1.5s linear infinite;margin: -10px;}.circle:nth-child(2){background-color: #4169E1;animation-delay: .7s;}@keyframes rotateCircles{to{transform: rotate(360deg);}}@keyframes grow{50%{transform: scale(1);}}
+		</style>
+	</head>
+	<body>
+		<div class="loader">
+			<div class="loaderCon">
+				<div class="circle"></div>
+				<div class="circle"></div>
+			</div>
+		</div>
+		<header>
+			<h1><img src="assets/img/logo.png" alt="logo here" /> | I'm <span data-wait="3000" data-words='["A FullStack Developer","A Graphic Designer","A Programmer"]'></span><a href="#Top" hidden=true></a></h1>
+			<nav>
+				<a href="#About"><span class="i-address-card"></span> About Me</a>
+				<a href="#Gallery"><span class="i-picture-3"></span> Gallery</a>
+				<a href="#Services"><span class="i-chat-1"></span> Services</a>
+				<span id="navIndecator"></span>
+			</nav>
+		</header>
+		<main>
+			<section id="Top">
+				
+			</section>
+			<section id="About">
+				<div style="width: 30%;" align="center">
+					<img src="assets/img/image.jpg" style="width: 75%;height: 37.5%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" alt="" />
+				</div>
+				<div style="width: 70%;padding: 10px;padding-top: 50px;" align="left">
+					<label for="fullname"><h2 style="color: #ff9800;">Full Name</h2><hr />
+						<h4>Ramel Niño O. Empleo</h4>
+					</label><br />
+					<label for="about"><h2 style="color: #ff9800;">About Me</h2><hr />
+						<h4 align="justify">
+							A bachelor’s degree in Computer Science at Western Mindanao State University – External Studies Unit: Molave. One of my hubbies are reading eBooks, bike riding, photos editing, making logos, basically anything you can do on a Photoshop. Also I can create any web applications. I’m well verse in programming languages, libraries, and frameworks such as PHP, JavaScript, JQuery and AngularJS v2.<br />
+							Currently now I want to pursue a career in web development.
+						</h4>
+					</label><br />
+					<label for="goal"><h2 style="color: #ff9800;">My Goal</h2><hr />
+						<h4>To excel any challenges and continuously learn more new things within the line of work.</h4>
+					</label><br />
+				</div>
+			</section>
+			<section class="anotherCon">
+				<div style="width: 100%;padding: 10px;" align="left">
+					<h2 style="color: #ff9800;">Skills</h2>
+					<hr style="background-color: #ff9800;" />
+					<br />
+					<aside class="skillCon">
+						<div class="backdrop"></div>
+						<h1>Coding</h1>
+						<div class="skillBox">
+							<p>HTML5</p>
+							<p>85%</p>
+							<div class="skill">
+								<div class="skillLevel" style="width: 85%;"></div>
+							</div>
+							<p>3 years experience</p>
+						</div>
+						<div class="skillBox">
+							<p>CSS3</p>
+							<p>78%</p>
+							<div class="skill">
+								<div class="skillLevel" style="width: 78%;"></div>
+							</div>
+							<p>3 years experience</p>
+						</div>
+						<div class="skillBox">
+							<p>JavaScript</p>
+							<p>55%</p>
+							<div class="skill">
+								<div class="skillLevel" style="width: 55%;"></div>
+							</div>
+							<p>2 years experience</p>
+						</div>
+						<div class="skillBox">
+							<p>PHP</p>
+							<p>55%</p>
+							<div class="skill">
+								<div class="skillLevel" style="width: 55%;"></div>
+							</div>
+							<p>2 years experience</p>
+						</div>
+						<div class="skillBox">
+							<p>AngularJs</p>
+							<p>37%</p>
+							<div class="skill">
+								<div class="skillLevel" style="width: 37%;"></div>
+							</div>
+							<p>1 year experience</p>
+						</div>
+						<div class="skillBox">
+							<p>JQuery</p>
+							<p>47%</p>
+							<div class="skill">
+								<div class="skillLevel" style="width: 47%;"></div>
+							</div>
+							<p>1 year experience</p>
+						</div>
+						<div class="skillBox">
+							<p>SQL</p>
+							<p>48%</p>
+							<div class="skill">
+								<div class="skillLevel" style="width: 47%;"></div>
+							</div>
+							<p>1 year experience</p>
+						</div>
+					</aside>
+					<aside class="skillCon">
+						<div class="backdrop"></div>
+						<h1>Software</h1>
+						<div class="skillBox">
+							<p>Photoshop</p>
+							<p>72%</p>
+							<div class="skill">
+								<div class="skillLevel" style="width: 72%;"></div>
+							</div>
+							<p>3 years experience</p>
+						</div>
+						<div class="skillBox">
+							<p>MS Office</p>
+							<p>67%</p>
+							<div class="skill">
+								<div class="skillLevel" style="width: 67%;"></div>
+							</div>
+							<p>2 years experience</p>
+						</div>
+					</aside>
+					<aside class="skillCon">
+						<div class="backdrop"></div>
+						<h1>Technical</h1>
+						<div class="skillBox">
+							<p>Typing Speed</p>
+							<p>50%</p>
+							<div class="skill">
+								<div class="skillLevel" style="width: 50%;"></div>
+							</div>
+						</div>
+						<div class="skillBox">
+							<p>Creativity</p>
+							<p>44%</p>
+							<div class="skill">
+								<div class="skillLevel" style="width: 44%;"></div>
+							</div>
+						</div>
+						<div class="skillBox">
+							<p>Communication</p>
+							<p>70%</p>
+							<div class="skill">
+								<div class="skillLevel" style="width: 70%;"></div>
+							</div>
+						</div>
+						<div class="skillBox">
+							<p>System Trouble Shooting</p>
+							<p>60%</p>
+							<div class="skill">
+								<div class="skillLevel" style="width: 60%;"></div>
+							</div>
+							<p>2 years experience</p>
+						</div>
+					</aside>
+				</div>
+			</section>
+			<section class="anotherCon">
+				<div style="width: 100%;padding: 10px;" align="left">
+					<h2 style="color: #ff9800;">Education</h2>
+					<hr style="background-color: #ff9800;" />
+					<label for="Bachelor of Science in Computer Science">
+						<h4>Course/Certification: Bachelor of Science in Computer Science
+						<br />Name of School: Western Mindanao State University ESU-MOLAVE
+						<br />Address: Mabini St., Molave, Zamboanga del Sur, Philippines
+						<br />Year Attended: 2015 - 2019
+						</h4>
+					</label><br />
+					<label for="Computer Hardware Servicing NCII">
+						<h4>Course/Certification: Computer Hardware Servicing NCII
+						<br />Name of School: Technical Education and Skills Development Authority PTC Region IX
+						<br />Address: Dao, Pagadian City, Philippines
+						<br />Year Attended: 2012
+						</h4>
+					</label><br />
+					<label for="High School Certificate">
+						<h4>Course/Certification: High School Certificate
+						<br />Name of School: Sacred Heart Diocesan School
+						<br />Address: Kamagong St., Molave, Zamboanga Del Sur, Philippines
+						<br />Year Attended: 2004 - 2009
+						</h4>
+					</label>
+				</div>
+			</section>
+			<section class="anotherCon">
+				<div style="width: 100%;padding: 10px;" align="left">
+					<h2 style="color: #ff9800;">Workshops, Seminars, and Trainings</h2>
+					<hr style="background-color: #ff9800;" />
+					<label for="Android Mobile Application Training">
+						<h4>Certification: Android Mobile Application Training
+						<br />Address: WMSU-MVTS ESU, Molave, Zamboanga del Sur, Philippines
+						<br />Year Attended: 2017
+						</h4>
+					</label><br />
+					<label for="Computer Networking using CISCO Packet Tracer">
+						<h4>Certification: Computer Networking using CISCO Packet Tracer
+						<br />Address: WMSU-MVTS ESU, Molave, Zamboanga del Sur, Philippines
+						<br />Year Attended: 2017
+						</h4>
+					</label><br />
+					<label for="Career Workshop Employment Resource Centre">
+						<h4>Certification: Career Workshop Employment Resource Centre
+						<br />Address: Ayala Life FGU Building, Cebu, Philippines
+						<br />Year Attended: 2014
+						</h4>
+					</label><br />
+					<label for="Short Course for Aspiring Call Center Agents">
+						<h4>Certification: Short Course for Aspiring Call Center Agents
+						<br />Address: Arlinda V. Paras Bldg., Don Gil Garcia St., Capitol Site, Cebu, Philippines
+						<br />Year Attended: 2014
+						</h4>
+					</label><br />
+				</div>
+			</section>
+			<section class="anotherCon">
+				<div style="width: 100%;padding: 10px;" align="left">
+					<h2 style="color: #ff9800;">Awards</h2>
+					<hr style="background-color: #ff9800;" />
+					<label for="Award of Recognition as Champion in C++ Programming Challenge">
+						<h4>Certification: Award of Recognition as Champion in C++ Programming Challenge
+						<br />Address: Pagadian City, Philippines
+						<br />Year Attended: 2017
+						</h4>
+					</label><br />
+					<label for="Award of Merit as a Salutatorian">
+						<h4>Certification: Award of Merit as a Salutatorian
+						<br />Address: Arlinda V. Paras Bldg., Don Gil Garcia St., Capitol Site, Cebu, Philippines
+						<br />Year Attended: 2014
+						</h4>
+					</label><br />
+				</div>
+			</section>
+			<section id="Gallery">
+				<div style="width: 100%;padding: 10px;margin-bottom: 100px;">
+<div class="project-list" align="center">
+	<div class="project">
+		<div class="project__card">
+			<div class="project__detail">
+				<h2 class="project__title">E-reklamo: A Web & SMS Based Barangay Complaint Monitoring System</h2>
+				<small class="project__category">For Barangay Culo Molave Zamboanga del Sur<br /><address>www.culomolave.com</address></small>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="e_rec" class="slider-pro">
+	<div class="sp-slides">
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (80).png"
+					data-src="assets/img/e_reklamo/Screenshot (80).png"
+					data-retina="assets/img/e_reklamo/Screenshot (80).png"/>
+			<div class="sp-caption">Landing Page. First View of the Website.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (81).png"
+					data-src="assets/img/e_reklamo/Screenshot (81).png"
+					data-retina="assets/img/e_reklamo/Screenshot (81).png"/>
+			<div class="sp-caption">Landing Page. Second View of the Website.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (82).png"
+					data-src="assets/img/e_reklamo/Screenshot (82).png"
+					data-retina="assets/img/e_reklamo/Screenshot (82).png"/>
+			<div class="sp-caption">Landing Page. Third View of the Website.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (83).png"
+					data-src="assets/img/e_reklamo/Screenshot (83).png"
+					data-retina="assets/img/e_reklamo/Screenshot (83).png"/>
+			<div class="sp-caption">Landing Page. Third View of the Website. Age verification in using the barangay service.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (84).png"
+					data-src="assets/img/e_reklamo/Screenshot (84).png"
+					data-retina="assets/img/e_reklamo/Screenshot (84).png"/>
+			<div class="sp-caption">Landing Page. Third View of the Website. Terms and Conditions in using the barangay service.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (85).png"
+					data-src="assets/img/e_reklamo/Screenshot (85).png"
+					data-retina="assets/img/e_reklamo/Screenshot (85).png"/>
+			<div class="sp-caption">Landing Page. Third View of the Website. Proceedures of the barangay service.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (86).png"
+					data-src="assets/img/e_reklamo/Screenshot (86).png"
+					data-retina="assets/img/e_reklamo/Screenshot (86).png"/>
+			<div class="sp-caption">Landing Page. Third View of the Website. Resident Log-in modal.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (76).png"
+					data-src="assets/img/e_reklamo/Screenshot (76).png"
+					data-retina="assets/img/e_reklamo/Screenshot (76).png"/>
+			<div class="sp-caption">BackEnd of the System. Log-in Screen.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (51).png"
+					data-src="assets/img/e_reklamo/Screenshot (51).png"
+					data-retina="assets/img/e_reklamo/Screenshot (51).png"/>
+			<div class="sp-caption">BackEnd of the System. Main Page of the System.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (52).png"
+					data-src="assets/img/e_reklamo/Screenshot (52).png"
+					data-retina="assets/img/e_reklamo/Screenshot (52).png"/>
+			<div class="sp-caption">BackEnd of the System. Resident List Table.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (79).png"
+					data-src="assets/img/e_reklamo/Screenshot (79).png"
+					data-retina="assets/img/e_reklamo/Screenshot (79).png"/>
+			<div class="sp-caption">BackEnd of the System. Adding of Resident modal.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (53).png"
+					data-src="assets/img/e_reklamo/Screenshot (53).png"
+					data-retina="assets/img/e_reklamo/Screenshot (53).png"/>
+			<div class="sp-caption">BackEnd of the System. Recieved Complaint via SMS.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (54).png"
+					data-src="assets/img/e_reklamo/Screenshot (54).png"
+					data-retina="assets/img/e_reklamo/Screenshot (54).png"/>
+			<div class="sp-caption">BackEnd of the System. Recieved Complaint via WEB.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (55).png"
+					data-src="assets/img/e_reklamo/Screenshot (55).png"
+					data-retina="assets/img/e_reklamo/Screenshot (55).png"/>
+			<div class="sp-caption">BackEnd of the System. List of Active Complaints.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (56).png"
+					data-src="assets/img/e_reklamo/Screenshot (56).png"
+					data-retina="assets/img/e_reklamo/Screenshot (56).png"/>
+			<div class="sp-caption">BackEnd of the System. Barangay Complaint form part1.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (60).png"
+					data-src="assets/img/e_reklamo/Screenshot (60).png"
+					data-retina="assets/img/e_reklamo/Screenshot (60).png"/>
+			<div class="sp-caption">BackEnd of the System. Barangay Complaint form part2.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (61).png"
+					data-src="assets/img/e_reklamo/Screenshot (61).png"
+					data-retina="assets/img/e_reklamo/Screenshot (61).png"/>
+			<div class="sp-caption">BackEnd of the System. Barangay Complaint form part3.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (63).png"
+					data-src="assets/img/e_reklamo/Screenshot (63).png"
+					data-retina="assets/img/e_reklamo/Screenshot (63).png"/>
+			<div class="sp-caption">BackEnd of the System. Barangay Complaint form part4.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (64).png"
+					data-src="assets/img/e_reklamo/Screenshot (64).png"
+					data-retina="assets/img/e_reklamo/Screenshot (64).png"/>
+			<div class="sp-caption">BackEnd of the System. Barangay Complaint form part5.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (65).png"
+					data-src="assets/img/e_reklamo/Screenshot (65).png"
+					data-retina="assets/img/e_reklamo/Screenshot (65).png"/>
+			<div class="sp-caption">BackEnd of the System. Barangay Clearance form part1.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (66).png"
+					data-src="assets/img/e_reklamo/Screenshot (66).png"
+					data-retina="assets/img/e_reklamo/Screenshot (66).png"/>
+			<div class="sp-caption">BackEnd of the System. Barangay Clearance form part2.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (67).png"
+					data-src="assets/img/e_reklamo/Screenshot (67).png"
+					data-retina="assets/img/e_reklamo/Screenshot (67).png"/>
+			<div class="sp-caption">BackEnd of the System. Barangay Clearance form part3.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (68).png"
+					data-src="assets/img/e_reklamo/Screenshot (68).png"
+					data-retina="assets/img/e_reklamo/Screenshot (68).png"/>
+			<div class="sp-caption">BackEnd of the System. Barangay Disbursement form.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (78).png"
+					data-src="assets/img/e_reklamo/Screenshot (78).png"
+					data-retina="assets/img/e_reklamo/Screenshot (78).png"/>
+			<div class="sp-caption">BackEnd of the System. Barangay Petty Cash form.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (70).png"
+					data-src="assets/img/e_reklamo/Screenshot (70).png"
+					data-retina="assets/img/e_reklamo/Screenshot (70).png"/>
+			<div class="sp-caption">BackEnd of the System. Barangay Item Request form.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (71).png"
+					data-src="assets/img/e_reklamo/Screenshot (71).png"
+					data-retina="assets/img/e_reklamo/Screenshot (71).png"/>
+			<div class="sp-caption">BackEnd of the System. Barangay Item Order form.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (72).png"
+					data-src="assets/img/e_reklamo/Screenshot (72).png"
+					data-retina="assets/img/e_reklamo/Screenshot (72).png"/>
+			<div class="sp-caption">BackEnd of the System. Barangay Payroll form.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (73).png"
+					data-src="assets/img/e_reklamo/Screenshot (73).png"
+					data-retina="assets/img/e_reklamo/Screenshot (73).png"/>
+			<div class="sp-caption">BackEnd of the System. Barangay Population statistical View.</div>
+		</div>
+		<div class="sp-slide">
+			<img class="sp-image" src="assets/img/e_reklamo/Screenshot (75).png"
+					data-src="assets/img/e_reklamo/Screenshot (75).png"
+					data-retina="assets/img/e_reklamo/Screenshot (75).png"/>
+			<div class="sp-caption">BackEnd of the System. System Settings Section.</div>
+		</div>
+	</div>
+	<div class="sp-thumbnails">
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (80).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (81).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (82).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (83).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (84).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (85).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (86).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (76).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (51).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (52).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (79).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (53).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (54).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (55).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (56).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (60).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (61).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (63).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (64).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (65).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (66).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (67).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (68).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (78).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (70).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (71).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (72).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (73).png"/>
+			</div>
+		</div>
+		<div class="sp-thumbnail">
+			<div class="sp-thumbnail-image-container">
+				<img class="sp-thumbnail-image" src="assets/img/e_reklamo/Screenshot (75).png"/>
+			</div>
+		</div>
+	</div>
+</div>
+				</div>
+				<div style="width: 100%;padding: 10px;">
+<div class="project-list" align="center">
+	<div class="project">
+		<div class="project__card">
+			<div class="project__detail">
+				<h2 class="project__title">Logo Designs</h2>
+				<small class="project__category">Logo Making</small>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="logo-row">
+	<div class="logo-column">
+		<div class="logo-card">
+			<img src="assets/img/logos/logo (4).png" alt="logo 1" style="width:100%; height:400px;">
+			<div class="logo-container">
+				<p class="logo-title">Sports Fiest</p>
+				<p>Created year 2017</p>
+			</div>
+		</div>
+	</div>
+	<div class="logo-column">
+		<div class="logo-card">
+			<img src="assets/img/logos/logo (3).png" alt="logo 1" style="width:100%; height:400px;">
+			<div class="logo-container">
+				<p class="logo-title">Project in Photoshop</p>
+				<p>Created year 2019</p>
+			</div>
+		</div>
+	</div>
+	<div class="logo-column">
+		<div class="logo-card">
+			<img src="assets/img/logos/logo (2).png" alt="logo 1" style="width:100%; height:400px;">
+			<div class="logo-container">
+				<p class="logo-title">Project in Photoshop</p>
+				<p>Created year 2019</p>
+			</div>
+		</div>
+	</div>
+	<div class="logo-column">
+		<div class="logo-card">
+			<img src="assets/img/logos/logo (1).png" alt="logo 1" style="width:100%; height:400px;">
+			<div class="logo-container">
+				<p class="logo-title">Project in Photoshop</p>
+				<p>Created year 2019</p>
+			</div>
+		</div>
+	</div>
+	<div class="logo-column">
+		<div class="logo-card">
+			<img src="assets/img/logos/logo.png" alt="logo 1" style="width:100%; height:400px;">
+			<div class="logo-container">
+				<p class="logo-title">Project in Photoshop</p>
+				<p>Created year 2019</p>
+			</div>
+		</div>
+	</div>
+</div>
+				</div>
+			</section>
+			<section id="Services">
+				<h1 style="position: absolute;top: 200px;right: 10px;padding: 10px;font-family: 'Lekton';">
+					I'm open for any freelance work in web development/graphic design.<br>
+					You can contact me via;<br>
+					Cell Number: <em>+639773533104</em><br>
+					Email: <em>ramelempleo@gmail.com</em><br />
+					Messenger: <em>https://m.me/CrAzyEmpz</em>
+				</h1>
+				<div>
+					<div id="contentRemark">
+						<small>Cr@zyE<sup>&copy;</sup> <span></span></small>
+					</div>
+					<div></div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<script src="assets/js/basetags.min.js"></script>
+			<script>
+				$('header,main').css('display','none').css('opacity','0');
+				setTimeout(()=>{$('.loader').css('display','none').css('opacity','0');$('header,main').css('display','block');setTimeout(()=>{$('header,main').css('opacity','1');},50);$('#e_rec').sliderPro({width:950,height:555,orientation:'vertical',loop:true,arrows:true,buttons:false,thumbnailsPosition:'right',thumbnailPointer:true,thumbnailWidth:200,breakpoints:{800:{thumbnailsPosition:'bottom',thumbnailWidth:270,thumbnailHeight:100},600:{thumbnailsPosition:'bottom',thumbnailWidth:120,thumbnailHeight:50}}});new typeWritter($('header h1 span'),JSON.parse($('header h1 span').attr('data-words')),$('header h1 span').attr('data-wait'));$('main section:last-child #contentRemark small span').text(new Date().getFullYear());new Animate_Navigation();},2000);
+			</script>
+		</footer>
+	</body>
+</html>
