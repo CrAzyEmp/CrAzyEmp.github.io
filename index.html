@@ -2,14 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Bio</title>
+  <title>Folio</title>
   <base href="./">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="styles.1832acf381dc6e6da8c9.css"></head>
+<link rel="stylesheet" href="styles.bc734c45e9ee348ab934.css"></head>
 <body>
+  <div class="loader">
+	<div class="loaderCon">
+		<div class="circle"></div>
+		<div class="circle"></div>
+	</div>
+  </div>
   <app-root></app-root>
-<script src="runtime-es2015.cdfb0ddb511f65fdc0a0.js" type="module"></script><script src="runtime-es5.cdfb0ddb511f65fdc0a0.js" nomodule defer></script><script src="polyfills-es5.0290b245fbcca09184ac.js" nomodule defer></script><script src="polyfills-es2015.ffa9bb4e015925544f91.js" type="module"></script><script src="main-es2015.ee1a7b50b577897ce844.js" type="module"></script><script src="main-es5.ee1a7b50b577897ce844.js" nomodule defer></script></body>
+  <script>
+  	setTimeout(
+  		() => {
+  			$('.loader').css( 'display', 'none' );
+  			$('section').css( 'display', 'block' );
+  			setTimeout(
+  				()=> {
+  					$('section').css( 'opacity', '1' );
+  				},50
+  			);
+  		},5000
+  	);
+  </script>
+<script src="runtime-es2015.cdfb0ddb511f65fdc0a0.js" type="module"></script><script src="runtime-es5.cdfb0ddb511f65fdc0a0.js" nomodule defer></script><script src="polyfills-es5.0290b245fbcca09184ac.js" nomodule defer></script><script src="polyfills-es2015.ffa9bb4e015925544f91.js" type="module"></script><script src="main-es2015.bd5132f4ef909e006b02.js" type="module"></script><script src="main-es5.bd5132f4ef909e006b02.js" nomodule defer></script></body>
 </html>
