@@ -1,0 +1,20 @@
+[
+	{
+		"skill": "Markups",
+		"details": [
+			{ "language": "HTML", "percent": 89 },
+			{ "language": "CSS", "percent": 77 }
+		]
+	},
+	{
+		"skill": "scripts",
+		"details": [
+			{ "language": "JAVASCRIPT", "percent": 76 },
+			{ "language": "PHP", "percent": 74 },
+			{ "language": "TPYESCRIPT", "percent": 52 }
+		]
+	},
+	{
+
+	}
+]
