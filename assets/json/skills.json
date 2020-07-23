@@ -1,20 +1,46 @@
 [
 	{
-		"skill": "Markups",
+		"skill": "Markup Languages",
 		"details": [
 			{ "language": "HTML", "percent": 89 },
-			{ "language": "CSS", "percent": 77 }
+			{ "language": "CSS", "percent": 77 },
+			{ "language": "XML", "percent": 29 },
+			{ "language": "JSON", "percent": 56 }
 		]
 	},
 	{
-		"skill": "scripts",
+		"skill": "Programming Languages",
 		"details": [
 			{ "language": "JAVASCRIPT", "percent": 76 },
 			{ "language": "PHP", "percent": 74 },
-			{ "language": "TPYESCRIPT", "percent": 52 }
+			{ "language": "TPYESCRIPT", "percent": 52 },
+			{ "language": "JAVA", "percent": 30 },
+			{ "language": "SQL", "percent": 63 }
 		]
 	},
 	{
-
+		"skill": "Frameworks",
+		"details": [
+			{ "language": "BOOTSTRAP", "percent": 46 },
+			{ "language": "ANGULAR", "percent": 84 },
+			{ "language": "NODE.JS", "percent": 33 },
+			{ "language": "JQUERY", "percent": 85 },
+			{ "language": "CORDOVA", "percent": 50 }
+		]
+	},
+	{
+		"skill": "Computer Programs",
+		"details": [
+			{ "language": "ADOBE PHOTOSHOP", "percent": 66 },
+			{ "language": "MS OFFICE", "percent": 74 },
+			{ "language": "KATALON", "percent": 23 }
+		]
+	},
+	{
+		"skill": "Content Management Systems",
+		"details": [
+			{ "language": "WordPress", "percent": 50 },
+			{ "language": "Salesforce", "percent": 50 }
+		]
 	}
 ]
