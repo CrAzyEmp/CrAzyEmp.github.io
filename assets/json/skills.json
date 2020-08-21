@@ -1,25 +1,33 @@
 [
 	{
-		"skill": "Markup Languages",
+		"skill": "Other Languages",
 		"details": [
 			{ "language": "HTML", "percent": 89 },
 			{ "language": "CSS", "percent": 77 },
 			{ "language": "XML", "percent": 29 },
-			{ "language": "JSON", "percent": 56 }
+			{ "language": "JSON", "percent": 56 },
+			{ "language": "Gherkin", "percent": 26 }
 		]
 	},
 	{
-		"skill": "Programming Languages",
+		"skill": "Programming Languages Part 1",
 		"details": [
 			{ "language": "JAVASCRIPT", "percent": 76 },
 			{ "language": "PHP", "percent": 74 },
 			{ "language": "TPYESCRIPT", "percent": 52 },
-			{ "language": "JAVA", "percent": 30 },
-			{ "language": "SQL", "percent": 63 }
+			{ "language": "JAVA", "percent": 30 }
 		]
 	},
 	{
-		"skill": "Frameworks",
+		"skill": "Programming Languages Part 2",
+		"details": [
+			{ "language": "SQL", "percent": 63 },
+			{ "language": "SOQL", "percent": 43 },
+			{ "language": "Apex", "percent": 73 }
+		]
+	},
+	{
+		"skill": "Frameworks and Libraries",
 		"details": [
 			{ "language": "BOOTSTRAP", "percent": 46 },
 			{ "language": "ANGULAR", "percent": 84 },
@@ -32,8 +40,7 @@
 		"skill": "Computer Programs",
 		"details": [
 			{ "language": "ADOBE PHOTOSHOP", "percent": 66 },
-			{ "language": "MS OFFICE", "percent": 74 },
-			{ "language": "KATALON", "percent": 23 }
+			{ "language": "MS OFFICE", "percent": 74 }
 		]
 	},
 	{
@@ -41,6 +48,21 @@
 		"details": [
 			{ "language": "WordPress", "percent": 50 },
 			{ "language": "Salesforce", "percent": 50 }
+		]
+	},
+	{
+		"skill": "Project Management Systems",
+		"details": [
+			{ "language": "Jira", "percent": 50 }
+		]
+	},
+	{	
+		"skill": "IDE Programs",
+		"details": [
+			{ "language": "KATALON", "percent": 26 },
+			{ "language": "VS Code", "percent": 24 },
+			{ "language": "Sublime", "percent": 54 },
+			{ "language": "Cucumber", "percent": 21 }
 		]
 	}
 ]
